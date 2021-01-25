@@ -1,0 +1,169 @@
+
+
+/*NAVBAR*/
+/*===================================================*/
+#mainNavbar {
+    background-color: rgb(248, 249, 250);
+    padding: 8px 0;
+}
+/*===================================================*/
+
+/*AFTER SCROLLING NAVBAR*/
+/*===================================================*/
+#mainNavbar.scrolled {
+    background: rgb(0, 98, 155);
+    transition: background 1s;
+}
+/*===================================================*/
+
+/*MENU ICON*/
+/*===================================================*/
+.menu-icon {
+    color: #00629b;
+}
+/*===================================================*/
+
+/*MENU ICON AFTER SCROLLING NAVBAR*/
+/*===================================================*/
+#mainNavbar.scrolled .menu-icon {
+    color: #fff;
+}
+/*===================================================*/
+
+/*NAVLINKS*/
+/*===================================================*/
+ .navbar-nav .nav-link {
+    color: #00629b;
+    font-size: 18px;
+}
+
+.menus {
+    margin-right: 80px;
+}
+/*===================================================*/
+
+
+/*NAVLINKS ON HOVERING BEFORE NAVBAR SCROLLED*/
+/*===================================================*/
+ .navbar-nav .nav-link:hover {
+    color: #00629b;
+    border-bottom: 3px solid #00629b;
+    padding: 7px 7.5px 0;
+}
+/*===================================================*/
+
+
+/*NAVLINKS AFTER NAVBAR SCROLLED*/
+/*===================================================*/
+#mainNavbar.scrolled .navbar-nav .nav-link {
+    color: #fff;
+}
+/*===================================================*/
+
+
+/*NAVLINKS ON HOVERING BEFORE NAVBAR SCROLLED*/
+/*===================================================*/
+#mainNavbar.scrolled a.nav-link:hover {
+    border-bottom: 3px solid #fff;
+    padding: 9.5px 7.5px 0;
+}
+/*===================================================*/
+
+
+/*footer container*/
+/*===========================*/
+footer {
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-text {
+    margin: auto 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.social-icons {
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.copyright, .mail {
+    font-size: 16px;
+    font-weight: 600;
+}
+}
+/*============================*/
+
+
+
+/*NAVBAR*/
+/*======================*/
+.navbar-brand {
+    margin-left: 16px;
+}
+
+.navbar-icon {
+    margin-right: 16px;
+}
+/*======================*/
+
+
+/*RESPONSIVE CSS*/
+/*==================================================================*/
+
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 25px 0 0 !important;
+    }
+}
+
+@media(max-width: 992px) {
+    .footer-hidden {
+        display: none;
+    }
+    .about{
+        font-size: 40px !important;
+    }
+    .navbar-nav .nav-link {
+        padding: 7.5px 0;
+        margin-left: 20px;
+    }
+    .navbar-nav .nav-link:hover {
+        background-color: rgb(248, 249, 250);
+        color: #00629b;
+        border-bottom: none;
+        padding: 7.5px 0;
+    }
+    #mainNavbar.scrolled .navbar-nav .nav-link:hover {
+        background-color: #00629b;
+        color: #fff;
+        border-bottom: none;
+        padding: 7.5px 0;
+    }
+}
+
+
+
+@media(max-width: 768px) {
+            /*FOOTER*/
+    /*=======================*/
+    .footer-on-tablet {
+        display: none;
+    }
+    .footer-hidden {
+        display: hidden;
+    }
+    .about{
+        font-size: 30px !important;
+        font-weight: 400 !important;
+    }
+    .footer-text {
+        margin: auto 30px;
+    }
+    /*========================*/
+}
+
+/*==================================================================*/
+
